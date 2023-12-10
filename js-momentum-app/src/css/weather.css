@@ -1,0 +1,11 @@
+#weather{
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+    font-size: 15px;
+}
+.weather-link{
+    color: inherit;
+    cursor: pointer;
+    margin-top: 7px;
+    font-size: 13px;
+}

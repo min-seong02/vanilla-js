@@ -1,0 +1,48 @@
+.list{
+    background-color: rgba(214, 200, 200, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    height: 35%;
+    width: 20%;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.list:hover{
+    background-color:  rgba(138, 134, 134, 0.3);
+    left: 20px;
+    bottom: 30px;
+}
+#todo-list{
+    overflow-y: auto;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+#todo-list button{
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(215, 214, 214, 0.3);
+}
+#todo-form input{
+    padding: 7px;
+    border: 0;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#todo-form input::placeholder{
+    opacity: 0.8;
+    outline: none;
+    color: whitesmoke;
+
+}
+#todo-form input:focus{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+    outline: none;
+}

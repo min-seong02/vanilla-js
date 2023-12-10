@@ -1,0 +1,49 @@
+.login-input, .login-input::placeholder, .login-input:focus, #clock ,#today, #greeting, .login-btn{
+    color: whitesmoke;
+}
+
+.login-input {
+    width: 180px;
+    position: relative;
+    padding: 9px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.login-input::placeholder{
+    opacity: 0.8;
+}
+
+.login-input:focus{
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+#today{
+    font-size: 18px;
+    position: relative;
+    bottom: 120px;
+}
+
+#clock{
+    margin-bottom: 0px;
+    font-size: 55px;
+    position: relative;
+    bottom: 120px;
+}
+.login-btn{
+    cursor: pointer;
+    height: 35px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 7px 0px;
+    border-style: none;
+    border-radius: 7px;
+    font-size: 12px;
+}
+#greeting{
+    position: relative;
+    bottom: 70px;
+    font-size: 25px;
+    opacity: 0.9;
+}
