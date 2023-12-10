@@ -4,6 +4,6 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 const body = document.querySelector("body");
-bgImage.src = `src/img/${chosenImage}`;
-body.style.backgroundImage = `url(src/img/${chosenImage}`; 
+bgImage.src = `img/${chosenImage}`;
+body.style.backgroundImage = `url(img/${chosenImage}`; 
 body.style.backgroundSize ="100% 100%";
